@@ -112,4 +112,26 @@
   .content h1::before {
     display: none;
   }
+
+  /* sponsor section */
+  #full-sponsor{
+    margin-top: 180px;
+    margin-left: 233px;
+  }
+  .sponsors-imgs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+  }
+
+  /* footer */
+  .footer-title{
+    width: 406px;
+    margin-left: 214px;
+}
+footer{
+    padding-bottom: 20px;
+}
+
+
 }
