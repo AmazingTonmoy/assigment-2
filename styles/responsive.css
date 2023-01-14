@@ -3,7 +3,7 @@
     width: 20rem;
   }
   .container-full {
-    background: none;
+    background-color: #fff
   }
   .container {
     width: 50%;
@@ -65,7 +65,7 @@
     padding: 0;
   }
   .feture-section {
-    margin-left: 260px;
+    margin-left: 245px;
     padding-bottom: 45px;
   }
   .feture-content {
@@ -73,9 +73,18 @@
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
   }
-
+  .feature-title{
+    width: 200px;
+  }
+  .feature-title h1{
+    font-size: 20px;
+    line-height: 28px;
+  }
   .section-left {
     width: 80%;
+  }
+  .col{
+    width: 250px;
   }
 
   .section-right {
@@ -87,11 +96,11 @@
   }
   .images img {
     width: 340px;
-    margin-left: -118px;
+    margin-left: -28px;
     justify-content: center;
   }
   .sudo-div {
-    left: 5px;
+    left: 75px;
     position: absolute;
     height: 120px;
     top: 500px;
