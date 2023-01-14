@@ -17,7 +17,7 @@
   .menu-lists {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 60px;
     margin-top: 20px;
   }
 
@@ -43,17 +43,58 @@
     margin-top: 40px;
   }
 
-
-  .workers-content{
+  .workers-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 330px;
     gap: 20px;
   }
-  .worker-img{
+  .worker-img {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+  }
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .feture-section {
+    margin-left: 240px;
+  }
+  .feture-content {
+    flex-direction: column !important;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .section-left {
+    width: 80%;
+  }
+
+  .section-right {
+    width: 60%;
+    position: relative;
+  }
+  .images {
+    padding: 15px;
+  }
+  .images img {
+    width: 340px;
+    margin-left: -118px;
+    justify-content: center;
+  }
+  .sudo-div {
+    left: 5px;
+    position: absolute;
+    height: 120px;
+    top: 500px;
+    width: 180px;
+  }
+ 
+  .content h1::before {
+    display: none;
   }
 }
