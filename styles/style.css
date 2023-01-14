@@ -1,0 +1,56 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+body {
+  /* width: 1365px; */
+  background: rgba(255, 144, 14, 0.1);
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* menu css start */
+
+.menu {
+  display: flex;
+  max-width: 81.25rem;
+  min-width: 36rem;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.menu-title {
+  max-width: 18.875rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.menu-items {
+  max-width: 29.8125rem;
+}
+
+.menu-lists {
+  display: flex;
+  gap: 2rem;
+
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+.menu-list {
+  font-size: 18px;
+  font-weight: 600;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #424242;
+}

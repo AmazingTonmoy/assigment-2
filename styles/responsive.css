@@ -1,0 +1,22 @@
+@media screen and (max-width: 576px) {
+  body {
+    width: 33rem;
+  }
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 576px;
+    width: 100%;
+  }
+  .menu-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+}
