@@ -2,6 +2,9 @@
   body {
     width: 20rem;
   }
+  .container-full {
+    background: none;
+  }
   .container {
     width: 50%;
     margin: 0 auto;
@@ -62,7 +65,8 @@
     padding: 0;
   }
   .feture-section {
-    margin-left: 240px;
+    margin-left: 260px;
+    padding-bottom: 45px;
   }
   .feture-content {
     flex-direction: column !important;
@@ -92,8 +96,10 @@
     height: 120px;
     top: 500px;
     width: 180px;
+    font-size: 15px;
+    height: 120px;
   }
- 
+
   .content h1::before {
     display: none;
   }
