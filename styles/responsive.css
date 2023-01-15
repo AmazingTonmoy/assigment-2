@@ -126,7 +126,7 @@
     flex-direction: column;
     margin-bottom: 20px;
     gap: 15px;
-    margin-left: 120px
+    margin-left: -80px
   }
 
   /* sponsor section */
@@ -137,12 +137,12 @@
   .sponsors-imgs{
     display: flex;
     flex-direction: column;
-    margin-left: 17px;
+    margin-left: -60px;
   }
   .sponsors-title{
     font-size: 31px;
     text-align: center;
-    margin-left: 28px;
+    margin-left: -21px;
     width: 100%;
     display: inline-block;
 }
