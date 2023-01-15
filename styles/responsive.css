@@ -3,7 +3,7 @@
     width: 20rem;
   }
   .container-full {
-    background-color: #fff
+    background-color: #fff;
   }
   .container {
     width: 50%;
@@ -28,12 +28,11 @@
     margin-top: 20px;
   }
 
-   /* ==========================
+  /* ==========================
   menu css end
   ============================= */
 
-
-   /* ==========================
+  /* ==========================
   article css start
   ============================= */
 
@@ -58,12 +57,11 @@
     margin-left: 225px;
     margin-top: 40px;
   }
-   /* ==========================
+  /* ==========================
   article css end
   ============================= */
 
-
-   /* ==========================
+  /* ==========================
   worker css start
   ============================= */
 
@@ -80,12 +78,9 @@
     justify-content: center;
   }
 
-
-    /* ==========================
+  /* ==========================
   worker css start
   ============================= */
-
-  
 
   body {
     width: 100%;
@@ -93,7 +88,7 @@
     padding: 0;
   }
 
-/* =========================
+  /* =========================
 feature section start
 ============================= */
 
@@ -106,17 +101,17 @@ feature section start
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
   }
-  .feature-title{
+  .feature-title {
     width: 200px;
   }
-  .feature-title h1{
+  .feature-title h1 {
     font-size: 20px;
     line-height: 28px;
   }
   .section-left {
     width: 80%;
   }
-  .col{
+  .col {
     width: 250px;
   }
 
@@ -153,14 +148,15 @@ feature section end
   /*-------------------------------------------- 
   fact section
   ----------------------------------------------------- */
-  .some-fact-info{
+  .some-fact-info {
     margin-left: -75px;
   }
 
-  .some-fact-info p,h2{
+  .some-fact-info p,
+  h2 {
     text-align: center;
   }
-  .fact-icons{
+  .fact-icons {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -170,22 +166,22 @@ feature section end
   /* --------------------------------------------------------------
   sponsor section
   ------------------------------------------------------------------ */
-  #full-sponsor{
+  #full-sponsor {
     margin-top: 180px;
     margin-left: 233px;
   }
-  .sponsors-imgs{
+  .sponsors-imgs {
     display: flex;
     flex-direction: column;
   }
-  .sponsors-title{
+  .sponsors-title {
     font-size: 31px;
     text-align: center;
     margin-left: -21px;
     width: 100%;
     display: inline-block;
-}
-   .sponsors-des{
+  }
+  .sponsors-des {
     text-align: left;
   }
 
@@ -193,61 +189,61 @@ feature section end
    footer 
    ----------------------------------------------*/
 
-   /*-------------------------------------- 
+  /*-------------------------------------- 
    form start
    ============================================*/
-.form-group {
-  display: flex;
-  justify-items: center;
-  flex: 1;
-  justify-content: center;
-  
-  
-}
+  .form-group {
+    display: flex;
+    justify-items: center;
+    flex: 1;
+    justify-content: center;
+  }
 
-.form-item{
-  
-  
-  width: 630px;
-  margin-left: 50px;
-}
-.form-content{
-  
-  display: flex;
-  flex-direction: column;
+  .form-item {
+    width: 490px;
+    margin-left: 164px;
+  }
+  .form-content {
+    display: flex;
+    flex-direction: column;
 
-  justify-content: center;
-  flex: 1;
+    justify-content: center;
+    flex: 1;
+  }
 
-}
-
-label, input, textarea {
-  /* width: 100%;
+  label,
+  input,
+  textarea {
+    /* width: 100%;
   margin-right: 0; */
-  margin-top: 20px;
-  font-size: 23px;
-}
-input[type="text"]{
-  width: 70px;
-}
+    margin-top: 20px;
+    font-size: 23px;
+  }
+  input[type="text"] {
+    width: 70px;
+  }
+  .form-num {
+    display: none;
+  }
 
-/* --------------------------------------
+  input[type="submit"] {
+    margin-left: 29%;
+  }
+  /* --------------------------------------
 form end
 -------------------------------------------- */
 
-/* -------------------------------
+  /* -------------------------------
 footer bottom start
 --------------------------------- */
 
-  .footer-title{
+  .footer-title {
     width: 406px;
-    margin-left: 170px;
-}
-footer{
+    margin-left: 200px;
+  }
+  footer {
     padding-bottom: 20px;
-}
-
-
+  }
 }
 
 /* -------------------------------
