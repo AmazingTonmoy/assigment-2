@@ -149,6 +149,46 @@
   }
 
   /* footer */
+/* form */
+.form-group {
+  display: flex;
+  justify-items: center;
+  flex: 1;
+  justify-content: center;
+  
+  
+}
+
+.form-item{
+  
+  
+  width: 630px;
+  margin-left: 50px;
+}
+.form-content{
+  
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  flex: 1;
+
+}
+
+label, input, textarea {
+  /* width: 100%;
+  margin-right: 0; */
+  margin-top: 20px;
+  font-size: 23px;
+}
+input[type="text"]{
+  width: 70px;
+}
+
+/* form end */
+
+
+
   .footer-title{
     width: 406px;
     margin-left: 170px;
