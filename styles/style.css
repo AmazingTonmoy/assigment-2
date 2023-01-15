@@ -309,6 +309,16 @@ font-weight: 600;
 }
 .sponsors-title{
   font-size: 40px;
+  text-align: center;
+}
+
+.sponsors-des{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 15px;
+    color: #727272;
 }
 
 .sponsors-imgs{
