@@ -1,6 +1,7 @@
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
+/* default css */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,7 @@ body {
 
 .container-full {
   width: 100%;
-  background-color: rgba(255, 144, 14, 0.1);
+  background-color: #ff900e1a;
   padding-bottom: 50px;
 }
 
@@ -22,8 +23,11 @@ body {
   width: 1125px;
   margin: 0 auto;
 }
+/* default css end */
 
-/* menu css start */
+/*----------------------------------
+ menu css start
+ ------------------------------------ */
 
 .menu {
   display: flex;
@@ -62,7 +66,15 @@ body {
   text-decoration: none;
   color: #424242;
 }
-/* article section */
+
+/*----------------------------------
+ menu css end
+ ------------------------------------ */
+
+
+/* -------------------------
+article section start
+------------------- */
 
 .article-items {
   width: 650px;
@@ -102,6 +114,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* -------------------------
+article section end
+------------------- */
 
 /* single image */
 .banner {
@@ -109,7 +124,8 @@ body {
   width: 100%;
 }
 
-/* worker section start */
+/* ------------------------------------------------
+-----------------worker section start-------------- */
 
 #workers {
   margin-top: 100px;
@@ -154,9 +170,11 @@ body {
   margin-left: 0;
   margin-top: 20px;
 }
-/* ------------------------------------------------- */
+/* ------------------------------------------------
+-----------------worker section end-------------- */
 
-/* Features  Section  start */
+/* ------------------------------------------------------
+------------------Features  Section  Start -----------------*/
 
 .feture-section {
   gap: 35px;
@@ -174,7 +192,7 @@ body {
   margin-right: 65px;
 }
 
-/* Section left */
+/*              Section left  start*/
 .content {
   grid-template-columns: repeat(1, 1fr);
 }
@@ -218,6 +236,9 @@ body {
   color: #727272;
 }
 
+
+/* -----------------------section right start--------- */
+
 .images img {
   width: 580px;
 }
@@ -239,9 +260,11 @@ body {
   font-size: 25px;
 }
 
-/* Features  Section  end */
+/* ------------------------------------------------------
+------------------Features  Section  end -----------------*/
 
-/* some facts section style */
+/* ------------------------------------------------------------------
+---------------------some facts section style start----------------- */
 .some-fact-info{
   width: 500px;
   margin-left: 84px;
@@ -284,6 +307,7 @@ body {
   /* display: grid;
   justify-content: center;
   align-items: center */
+  
 }
 
 @keyframes shake {
@@ -301,10 +325,14 @@ body {
 }
 
 .fact-icon:hover{
-  transform: scale(1.2);
-  rotate: 10deg;
+  
   transition: 0.3s;
-  background-color: aqua;
+  background-color: #ff900e1a;
+  rotate: 360deg;
+  cursor: no-drop;
+  
+  
+  
 
 }
 
@@ -326,11 +354,18 @@ font-weight: 600;
   margin-top: 40px;
 }
 
+/* ------------------------------------------------------------------
+---------------------some facts section style end----------------- */
 
-/* sponsors section start */
+
+/* ----------------------------------------------------
+------------sponsors section start-------------------- */
+
+
 #full-sponsor{
   background-color: #fff;
 }
+
 .sponsors-titles{
   font-size: 40px;
   text-align: center;
@@ -351,10 +386,17 @@ font-weight: 600;
   gap: 45px;
   padding-top: 50px;
 }
+
+
 .sponsors-img img{
   filter: grayscale(100%);
 }
-/* sponsors section end */
+
+
+/* ---------------------------------------------------------
+------------------------sponsors section end ---------------*/
+
+
 
 /* form style start */
 form {
@@ -414,9 +456,11 @@ input[type="submit"] {
   margin-left: 40%;
 }
 
-/* form style end */
+/* --------------------------------------------form style end-------------------------- */
 
 
+
+/*--------------------------------- footer style start ---------------------------------*/
 footer{
   padding-bottom: 50px;
 }
@@ -435,6 +479,8 @@ footer{
   color: #424242;
  
 }
+
+/*--------------------------------- footer style end --------------------------------------------*/
 
 
 
